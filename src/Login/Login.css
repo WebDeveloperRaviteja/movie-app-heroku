@@ -1,0 +1,42 @@
+  .App {
+    text-align: center;
+ }
+ .hiiform {
+   border:2px solid white;
+   padding: 30px;
+  
+ }
+ 
+ .App-header1 {
+    background-image: url("spy.jpg");
+   background-color: white;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: brown;
+ } 
+
+ @media screen and (max-width:700px){
+   .App-header1{
+    background-color:lightblue;
+    background-image: none;
+   
+    height:100%;
+    width:auto;
+    
+    color:red;
+    border-radius: 4px solid white;
+
+    
+    }
+    .hiiform{
+      border:5px solid green;
+   padding: 40px;
+    }
+    
+   }
+ 
+ 

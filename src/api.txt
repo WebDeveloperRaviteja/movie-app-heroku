@@ -1,0 +1,9 @@
+api= "https://api.themoviedb.org/3/movie/550?api_key=94e7242618f2cd605dc21e4d750ee0fc"   (complete important)
+api= "https://api.themoviedb.org/3/movie/popular?api_key=94e7242618f2cd605dc21e4d750ee0fc"   (complete important)
+requestapi: "https://api.themoviedb.org/3/search/movie?api_key=<<api_key>>&language=en-US&page=1&include_adult=false"
+
+images: "https://image.tmdb.org/t/p/w500/"
+
+usedimg:"https://image.tmdb.org/t/p/w500/"
+
+apisearch movie:"https://api.themoviedb.org/3/search/movie?api_key=94e7242618f2cd605dc21e4d750ee0fc&query"
